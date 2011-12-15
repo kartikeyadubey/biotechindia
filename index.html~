@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="screen" href="./css/stylesheet.css" />
+</head>
+<body>
+  <div id="container">
+  
+    <div id="header">
+      <ul id="nav">
+        <li id="nav-01"><a href="#">We Represent</a></li>
+        <li id="nav-02"><a href="#">Catalog Request</a></li>
+        <li id="nav-03"><a href="#">Careers</a></li>
+        <li id="nav-04"><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    
+    <div id="content">
+    Content goes here
+    </div>
+
+    <div id="foot">
+    Footer goes here
+    </div>
+  
+  </div>
+</body>
+
+</html>

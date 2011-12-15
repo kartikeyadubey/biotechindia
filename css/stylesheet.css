@@ -1,0 +1,88 @@
+html, body {
+  background: url('../images/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+}
+
+
+/* CONTAINER
+ //////////////////// */
+#container {
+	position:relative; /* needed for footer positioning*/
+	margin-top: 0px; /* center, not in IE5 */
+  width: 850px;
+  background: #ffffff;
+  margin-left:auto;
+  margin-right:auto;
+	
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treated as min-height*/
+
+	min-height:100%; /* real browsers */
+}
+
+/* TOP NAVIGATION BAR
+/////////////////////////////////////*/
+#nav {
+    position: relative;
+    margin-right:auto;
+    margin-left:auto;
+    background:url("../images/b-nav-1.png") no-repeat;
+    width: 818px;
+    height: 102.5px;
+    padding: 0;
+}
+
+#nav li, #nav a {
+    height: 102.5px;
+    display: block;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    display: inline;
+    text-indent: -9999em;
+}
+
+#nav-01 { width: 205px; }
+#nav-02 { width: 257px; }
+#nav-03 { width: 155px; }
+#nav-04 { width: 201px; }
+
+#nav-01 a:hover { background:url("../images/b-nav-1.png") 3px -102.5px no-repeat; }
+#nav-02 a:hover { background:url("../images/b-nav-1.png") -202px -102.5px no-repeat; }
+#nav-03 a:hover { background:url("../images/b-nav-1.png") -459px -102.5px no-repeat; }
+#nav-04 a:hover { background:url("../images/b-nav-1.png") -614px -102.5px no-repeat; }
+
+
+/* Main Content Area */
+#content
+{
+  padding: 1em 1em 5em;
+}
+
+/* Header */
+#header
+{
+  width: 818 px;
+  margin-left: auto;
+  margin-right:auto;
+  padding: 1em;
+  background: #000000;
+}
+
+
+/* Footer */
+#footer
+{
+  position: absolute;
+  width:100%;
+  bottom:0; /* stay at the bottom */
+  border-top: 2px double gray;
+}
