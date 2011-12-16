@@ -19,7 +19,7 @@ html, body {
   background: #ffffff;
   margin-left:auto;
   margin-right:auto;
-	
+
 	height:auto !important; /* real browsers */
 	height:100%; /* IE6: treated as min-height*/
 
@@ -50,21 +50,24 @@ html, body {
     text-indent: -9999em;
 }
 
-#nav-01 { width: 205px; }
-#nav-02 { width: 257px; }
-#nav-03 { width: 155px; }
-#nav-04 { width: 201px; }
+#nav-01 { width: 224px; }
+#nav-02 { width: 259px; }
+#nav-03 { width: 148px; }
+#nav-04 { width: 180px; }
 
-#nav-01 a:hover { background:url("../images/b-nav-1.png") 3px -102.5px no-repeat; }
-#nav-02 a:hover { background:url("../images/b-nav-1.png") -202px -102.5px no-repeat; }
-#nav-03 a:hover { background:url("../images/b-nav-1.png") -459px -102.5px no-repeat; }
-#nav-04 a:hover { background:url("../images/b-nav-1.png") -614px -102.5px no-repeat; }
+#nav-01 a:hover { background:url("../images/b-nav-1.png") 0px -102.5px no-repeat; }
+#nav-02 a:hover { background:url("../images/b-nav-1.png") -224px -102.5px no-repeat; }
+#nav-03 a:hover { background:url("../images/b-nav-1.png") -483px -102.5px no-repeat; }
+#nav-04 a:hover { background:url("../images/b-nav-1.png") -631px -102.5px no-repeat; }
 
 
 /* Main Content Area */
 #content
 {
   padding: 1em 1em 5em;
+  text-align: left;
+  font-family: Arial Helvetica sans-serif;
+  font-size: 20px;
 }
 
 /* Header */
@@ -74,7 +77,6 @@ html, body {
   margin-left: auto;
   margin-right:auto;
   padding: 1em;
-  background: #000000;
 }
 
 
@@ -85,4 +87,60 @@ html, body {
   width:100%;
   bottom:0; /* stay at the bottom */
   border-top: 2px double gray;
+}
+
+
+
+/* Contact Us */
+.clear {clear:both}
+ 
+.block {
+    width:400px;
+    margin:0 auto;
+    text-align:left;
+}
+.element * {
+    padding:5px; 
+    margin:2px; 
+    font-family:arial;
+    font-size:12px;
+}
+.element label {
+    float:left; 
+    width:75px;
+    font-weight:700
+}
+.element input.text {
+    float:left; 
+    width:270px;
+    padding-left:20px;
+}
+.element .textarea {
+    height:120px; 
+    width:270px;
+    padding-left:20px;
+}
+.element .hightlight {
+    border:2px solid #9F1319;
+    background:url(iconCaution.gif) no-repeat 2px
+}
+.element #submit {
+    float:right;
+    margin-right:10px;
+}
+.loading {
+    float:right; 
+    background:url(ajax-loader.gif) no-repeat 1px; 
+    height:28px; 
+    width:28px; 
+    display:none;
+}
+.done {
+    background:url(iconIdea.gif) no-repeat 2px; 
+    padding-left:20px;
+    font-family:arial;
+    font-size:12px; 
+    width:70%; 
+    margin:20px auto; 
+    display:none
 }
